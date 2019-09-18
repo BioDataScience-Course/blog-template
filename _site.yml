@@ -9,6 +9,7 @@ navbar:
       href: about.html
     - icon: fab fa-github
       #href: https://github.com/rstudio/distill
+#
 #collections:
 #    posts:
 #      disqus: ...
