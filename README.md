@@ -1,6 +1,14 @@
 # blog-template
 
+## Avant-propos
+
 Dans le cadre d'une collaboration entre le cours English For Science et Science des données I, vous êtes amené à créer un blog scientifique comprend une succession d'articles qui analyse de la littérature de vulgarisation scientifique.
+
+Ce dernier est un projet qui va évoluer avec votre progression dans les différents modules. Pour ce faire, suivez avec attention les attendus pour chaque module.
+
+Il est possible que ce document évolue au cours du temps. N'hésitez pas à aller vérifier le lien suivant afin de voir les modifications dans les consignes : https://github.com/BioDataScience-Course/sdd1_biometry
+
+----
 
 ## Module 1
 
