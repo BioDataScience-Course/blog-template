@@ -8,8 +8,15 @@ Ce dernier est un projet qui va évoluer avec votre progression dans les différ
 
 Il est possible que ce document évolue au cours du temps. N'hésitez pas à aller vérifier le lien suivant afin de voir les modifications dans les consignes : https://github.com/BioDataScience-Course/blog-template
 
+----
 
-## Procédure
+## Module 1
+
+### Objectif
+
+- Créer votre site web scientifique personnel
+
+### Procédure
 
 Vous allez réaliser votre premier **fork** et le cloner en local. Suivez les étapes suivantes :
 
@@ -58,17 +65,11 @@ Dans votre dépôt en ligne sur Github,
 
 Au bout de quelques minuts votre site sera en ligne.
 
-----
-
-## Module 1
-
-### Objectif
-
-- Créer votre site web scientifique personnel
-
 ### Etat de progression
 
-A la fin de ces modules, vous devez avoir créer votre site web. Ce site doit comprendre les informations de base afin de vous identifier (il ne s'agit donc pas de laisser le template de base sans aucune modification). 
+A la fin de ces modules, vous devez avoir créer votre site web. Ce site doit comprendre les informations de base afin de vous identifier (il ne s'agit donc pas de laisser le template de base sans aucune modification). Vous devez éditer le fichier about.Rmd qui se situe dans `_posts/about/about.Rmd`.
+
+Lorsque vous avez éditer un article, vous devez cliquer sur Knit afin de créer votre article. Ensuite vous devez aller dans la section `Build` et cliquez sur `Build Website`
 
 Vous devez avoir complété la section about me. 
 
