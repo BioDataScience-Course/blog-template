@@ -2,7 +2,7 @@
 
 ## Avant-propos
 
-Dans le cadre d'une collaboration entre le cours English For Science et le cours  de Science des données I, vous êtes amené à créer un blog scientifique. Ce blog va comprendre des articles qui traitent d'analyse de la littérature de vulgarisation scientifique et de description de donnée.
+Dans le cadre d'une collaboration entre le cours English For Science et le cours  de Science des données I, vous êtes amené à créer un blog scientifique. Ce blog va comprendre des articles qui traitent d'analyse de la littérature de vulgarisation scientifique et de description de données.
 
 Ce dernier est un projet qui va évoluer avec votre progression dans les différents modules. Pour ce faire, suivez avec attention les attendus pour chaque module.
 
@@ -22,6 +22,7 @@ Vous allez réaliser votre premier **fork** et le cloner en local. Suivez les é
 
 Sur GitHub :
 
+0. Connecter vous à GitHub si cela est nécessaire
 1. Cliquer sur `Use this template`
 2. Nommer votre dépots en respectant l'exemple (ex: guyliann/guyliann_blog)
 3. Compléter la description en un phrase en anglais (ex:  my personal blog)
@@ -30,12 +31,12 @@ Sur GitHub :
 Vous venez de créer votre repository
 
 5. Cliquer sur `code`
-6. Cliquer sur le bouton pour copier l'url (https)
+6. Cliquer sur le bouton pour copier l'URL (https)
 
 Dans RStudio :
 
 7. Cliquer sur `Project` puis `New Project...`, puis `Version Control`, puis `Git`
-8. Copier votre url du point 6 dans la section `Repository URL` (La section `Project directory name` se complète automatiquement sur base de l'URL copié.)
+8. Copier votre URL du point 6 dans la section `Repository URL` (La section `Project directory name` se complète automatiquement sur base de l'URL copié.)
 9. Cliquer sur `Browse...` de la section `Create project as subdirectory of`. Sélectionner le dossier `shared` puis `projects`
 
 Vous venez de créer votre dépôt local de votre blog personnel. Vous devez éditer plusieurs fichiers afin de rendre votre site accessible en ligne.
@@ -67,19 +68,40 @@ Au bout de quelques minuts votre site sera en ligne.
 
 ### Etat de progression
 
-A la fin de ces modules, vous devez avoir créer votre site web. Ce site doit comprendre les informations de base afin de vous identifier (il ne s'agit donc pas de laisser le template de base sans aucune modification). Vous devez éditer le fichier about.Rmd qui se situe dans `_posts/about/about.Rmd`.
+A la fin de ces modules, vous devez avoir créé votre site web. Ce site doit comprendre les informations de base afin de vous identifier (il ne s'agit donc pas de laisser le template de base sans aucune modification). Vous devez éditer le fichier about.Rmd qui se situe dans `_posts/about/about.Rmd`.
 
-Lorsque vous avez éditer un article, vous devez cliquer sur Knit afin de créer votre article. Ensuite vous devez aller dans la section `Build` et cliquez sur `Build Website`
+Lorsque vous avez édité un article, vous devez cliquer sur Knit afin de créer votre article. Ensuite vous devez aller dans la section `Build` et cliquez sur `Build Website`
 
-Vous devez avoir complété la section about me. 
+- Vous devez avoir complété la section about me.
 
 -----
 
 ## Module 2
 
+### Objectif
+
+- Rédiger votre premier article
+
+### Procédure
+
+Dans Rstudio
+
+1. Ouvrer votre projet de blog
+
+Dans la console de RStudio,
+
+2. Entrer l'instruction suivante 
+
+```
+distill::create_post("mon article")
+```
+
 ### Etat d'avancement 
 
-A la fin de ce module, vous devez avoir ajouté disqus à votre site. 
+A la fin de ce module, vous devez 
+
+- avoir créé votre premier article.
+- avoir ajouté disqus à votre site. 
 
 -----
 
@@ -87,8 +109,7 @@ A la fin de ce module, vous devez avoir ajouté disqus à votre site.
 
 ### Etat d'avancement 
 
-A la fin de ce module, vous devez proposer un court article qui comprend un graphique dont vous proposez une description **en anglais**. Cet article doit débuter par 2-3 lignes qui présente le sujet du graphique. En dessous du graphique, vous devez écrire 2-3 lignes afin d'expliquer le grpahique.
-
+A la fin de ce module, vous devez proposer un court article qui comprend un graphique dont vous proposez une description **en anglais**. Cet article doit débuter par 2-3 lignes qui présente le sujet du graphique. En dessous du graphique, vous devez écrire 2-3 lignes afin d'expliquer le graphique.
 
 
 Consultez le site suivant afin de personnaliser votre blog <https://rstudio.github.io/distill/blog.html>
