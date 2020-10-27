@@ -100,9 +100,27 @@ distill::create_post("mon article")
 
 A la fin de ce module, vous devez 
 
-- avoir créé votre premier article.
+- avoir créé votre premier article. 
+
+-----
+
+## Module 3
+
+### Objectif
+
+- Ajouter disqus à votre blog
+
+### Procédure
+
+Cliquez sur ce lien pour avoir toutes les explications nécéssaires <https://github.com/BioDataScience-Course/blog-creation>
+
+### Etat d'avancement 
+
+A la fin de ce module, vous devez 
+
 - avoir ajouté disqus à votre site. 
 
+### Procédure
 -----
 
 ## Module 4
