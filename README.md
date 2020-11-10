@@ -137,7 +137,7 @@ A la fin de ce module, vous devez
 distill::create_post("graphic_description")
 ```
 
-- Cet article doit avoir au minimum **Data Sciences I** comme catégories. 
+- Cet article doit avoir au minimum **Data Sciences I** comme [catégories](https://rstudio.github.io/distill/blog.html#categories). 
 
 - L'article doit présenter un graphique sur l'un des jeux de données suivant : `zooplankton` du package `data.io`, `urchin_bio` du package `data.io` ou encore `biometry` du package `BioDataScience1 
 
@@ -147,12 +147,13 @@ Voici un exemple pour importer l'un des jeux de données proposé.
 data <- read("zooplankton", package = "data.io")
 ```
 
-Cet article doit débuter par 2-3 lignes qui présente le jeu de données sélectionné. Ensuite, vous devez réaliser un graphique en anglais. Choississez un graphique que vous considerez comme intéressant. En dessous du graphique, vous devez écrire 2-3 lignes afin d'expliquer le graphique.
+- Cet article doit débuter par 2-3 lignes qui présente le jeu de données sélectionné. Ensuite, vous devez réaliser un graphique en anglais. Choississez un graphique que vous considerez comme intéressant. En dessous du graphique, vous devez écrire 2-3 lignes afin d'expliquer le graphique.
 
 ### Etat d'avancement 
 
-A la fin de ce module, vous devez proposer un court article qui comprend un graphique dont vous proposez une description **en anglais**. Cet article doit débuter par 2-3 lignes qui présente le sujet du graphique. En dessous du graphique, vous devez écrire 2-3 lignes afin d'expliquer le graphique.
+A la fin de ce module, vous devez proposer un court article qui comprend un graphique dont vous proposez en anglais une courte introdution sur les données, un graphique et une decription du graphique. 
 
+# Pour en savoir plus !
 
 Consultez le site suivant afin de personnaliser votre blog <https://rstudio.github.io/distill/blog.html>
 
